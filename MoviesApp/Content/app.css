@@ -1,0 +1,46 @@
+﻿body {
+    padding-top:20px;
+}
+
+.movies {
+    list-style:none;    
+}
+
+    .movies li {
+        clear:both;
+        height:115px;
+        padding-top:15px;
+    }
+
+.thumb {
+    float:left;
+    font-weight:bold;
+    height:100px;
+    margin:-0.5em 1em 1.5em 0;
+    padding-bottom: 1em;
+    width:100px;
+}
+
+.magentaBackGround{
+    background-color:aqua;
+}
+
+.azureBackGround {
+    background-color: burlywood; 
+}
+.cardBorder{
+    border:2px solid black;
+    border-radius:15px;
+}
+.title{
+    color:darkblue;
+}
+
+.title2 {
+    font-size: large;
+    font-weight: bold;    
+}
+
+.customP{
+    text-align:left;
+}
