@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": 0,
+    "Title": "Spider-Man: Far from Home",
+    "Image": "..\\Images\\Spider-man.jpg",
+    "Seasons": 2019,
+    "Views": 20,
+    "IsSeries": false
+  },
+  {
+    "id": 1,
+    "Title": "Arrow",
+    "Image": "..\\Images\\Arrow.jpg",
+    "Seasons": 6,
+    "Views": 19,
+    "IsSeries": true
+  },
+  {
+    "id": 2,
+    "Title": "Gotham",
+    "Image": "..\\Images\\Gotham.jpg",
+    "Seasons": 3,
+    "Views": 18,
+    "IsSeries": true
+  },
+  {
+    "id": 3,
+    "Title": "Midsommar",
+    "Image": "..\\Images\\midsommar.jpg",
+    "Seasons": 2019,
+    "Views": 17,
+    "IsSeries": false
+  },
+  {
+    "id": 4,
+    "Title": "The Flash",
+    "Image": "..\\Images\\The-Flash.jpg",
+    "Seasons": 8,
+    "Views": 16,
+    "IsSeries": true
+  },
+  {
+    "id": 5,
+    "Title": "Toy Story 4",
+    "Image": "..\\Images\\toy-story-4.jpg",
+    "Seasons": 2019,
+    "Views": 15,
+    "IsSeries": false
+  },
+  {
+    "id": 6,
+    "Title": "Yesterday",
+    "Image": "..\\Images\\yesterday.jpg",
+    "Seasons": 2019,
+    "Views": 14,
+    "IsSeries": false
+  },
+  {
+    "id": 7,
+    "Title": "Agents of S.H.I.E.L.D.",
+    "Image": "..\\Images\\Agents-SHIELD.jpg",
+    "Seasons": 5,
+    "Views": 13,
+    "IsSeries": true
+  },
+  {
+    "id": 8,
+    "Title": "Avengers Endgame",
+    "Image": "..\\Images\\Avengers-endgame.jpg",
+    "Seasons": 2018,
+    "Views": 12,
+    "IsSeries": false
+  },
+  {
+    "id": 9,
+    "Title": "DC's Legends of Tomorrow",
+    "Image": "..\\Images\\DCs-Legends.jpg",
+    "Seasons": 2,
+    "Views": 21,
+    "IsSeries": true
+  }
+
+]

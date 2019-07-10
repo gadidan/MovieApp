@@ -1,0 +1,33 @@
+﻿
+<div class="container-fluid" style="text-align:center;">
+    <div class="row">
+        <div class="col-md-4 magentaBackGround">
+
+            <p>
+                Search:
+                <input ng-model="$ctrl.query" />
+            </p>
+
+            <p>
+                Sort by:
+                <select ng-model="$ctrl.orderProp">
+                    <option value="Title">Title</option>
+                    <option value="Seasons">Seasons</option>
+                </select>
+            </p>        
+
+            <ul class="movies azureBackGround">
+                <li ng-repeat="movie in $ctrl.movies | filter:$ctrl.query | orderBy:$ctrl.orderProp" class="thumbnail">
+                    <a href="#!/movies/{{movie.id}}" class="thumb">
+                        <img ng-src="{{movie.Image}}" alt="{{movie.Title}}" style="height:100px;"/>
+                    </a>
+                    <a href="#!/phones/{{movie.id}}">{{movie.Title}}</a>                    
+
+                    <p>Seasons: {{movie.Seasons}}</p>
+                    <p>Views: {{movie.Views}}</p>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
